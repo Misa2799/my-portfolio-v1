@@ -1,0 +1,49 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+  z-index: 1;
+  margin: 60px 8% 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+  margin-top: 60px;
+  margin-right: 24px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  font-family: var(--font-roboto);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.subTitle {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 32px;
+  margin-top: 32px;
+}
+
+.heroImg {
+  width: 30%;
+}
