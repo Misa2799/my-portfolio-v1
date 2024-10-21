@@ -3,18 +3,12 @@
 .container {
   width: 80%;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: 48px;
   z-index: 1;
-  margin: 60px 8% 0;
+  margin: 96px 8% 0;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
   margin-top: 60px;
@@ -40,6 +34,7 @@ h2 {
 }
 
 .description {
+  max-width: 75%;
   font-size: 32px;
   margin-top: 32px;
 }

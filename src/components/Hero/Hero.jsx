@@ -12,8 +12,9 @@ export default function Hero() {
           <span className={styles.subTitle}>Front-end Developer</span>
         </h2>
         <p className={styles.description}>
-          I love building user-friendly applications, and exciting ideas to life
-          through code!
+          I love building user-friendly interfaces, developing web apps that
+          make tasks easier and more enjoyable, and bringing exciting ideas to
+          life through code!
         </p>
         <div className={styles.btnContainer}>
           <a href="#projects" className={styles.projectsBtn}>
