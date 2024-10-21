@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  width: 80%;
+  margin-top: 129px;
+  z-index: 1;
+  margin: 160px 8% 0;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+/* .content {
+  width: 100%;
+  border: 1px solid black;
+} */
+
+.aboutText {
+  /* max-width: 75%; */
+  font-size: 32px;
+  margin-top: 32px;
+}
+
+.marker_secondary {
+  background: linear-gradient(transparent 70%, var(--color-secondary));
+  border-radius: 2px;
+}
+
+.aboutSkills {
+  margin-top: 48px;
+  font-size: 32px;
+}
+
+.marker_primary {
+  background: linear-gradient(transparent 70%, var(--color-primary));
+  border-radius: 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+.aboutItems {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+  gap: 48px 8px;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.aboutItem {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+img {
+  width: 75px;
+  height: auto;
+}
+
+.itemTitle {
+  margin-top: 16px;
+}
