@@ -1,4 +1,4 @@
-import { getImageUrl } from "../../utils";
+// import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
@@ -6,21 +6,26 @@ export default function Hero() {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1>
-          Hi, my name is <span className={styles.title}>Misa</span>
+          Hi, I&apos;m <span className={styles.title}>Misa Takeda</span>
         </h1>
         <h2>
-          I&apos;m a <span className={styles.subTitle}>Web developer</span>
+          <span className={styles.subTitle}>Front-end Developer</span>
         </h2>
         <p className={styles.description}>
-          I love building user-friendly interfaces, developing web apps, and
-          bringing exciting ideas to life through code!
+          I love building user-friendly applications, and exciting ideas to life
+          through code!
         </p>
+        <div className={styles.btnContainer}>
+          <a href="#projects" className={styles.projectsBtn}>
+            Projects
+          </a>
+        </div>
       </div>
-      <img
+      {/* <img
         className={styles.heroImg}
         src={getImageUrl("hero/heroImg.png")}
         alt="sending love"
-      />
+      /> */}
     </section>
   );
 }
