@@ -5,9 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 64px;
+  padding-top: 48px;
   z-index: 2;
-  margin: 0 10%;
+  margin: 0 8%;
 }
 
 .title {
@@ -45,7 +45,6 @@
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
