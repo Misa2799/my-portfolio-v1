@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import skills from "../../data/skills.json";
 
 export default function About() {
   return (
@@ -20,46 +21,14 @@ export default function About() {
           <span className={styles.marker_primary}>Skills</span>
         </h3>
         <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/html.png")} alt="html5" />
-            <p className={styles.itemTitle}>HTML5</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/css.png")} alt="css3" />
-            <p className={styles.itemTitle}>CSS3</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/js.png")} alt="javascript" />
-            <p className={styles.itemTitle}>JavaScript</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/jquery.png")} alt="jquery" />
-            <p className={styles.itemTitle}>jQuery</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/react.png")} alt="react" />
-            <p className={styles.itemTitle}>React</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/node.png")} alt="node.js" />
-            <p className={styles.itemTitle}>Node.js</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/git.png")} alt="git" />
-            <p className={styles.itemTitle}>Git</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/github-mark.png")} alt="github" />
-            <p className={styles.itemTitle}>GitHub</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/mongodb.png")} alt="mongodb" />
-            <p className={styles.itemTitle}>Mongodb</p>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("skills/postgresql.png")} alt="postgresql" />
-            <p className={styles.itemTitle}>PostgreSQL</p>
-          </li>
+          {skills.map((skill, index) => {
+            return (
+              <li key={index} className={styles.aboutItem}>
+                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                <p className={styles.itemTitle}>{skill.title}</p>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
