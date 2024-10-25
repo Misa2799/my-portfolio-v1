@@ -2,7 +2,6 @@
 
 .container {
   position: relative;
-  width: 80%;
   margin-top: 129px;
   z-index: 1;
   margin: 160px 8% 0;
@@ -16,13 +15,7 @@
   text-transform: uppercase;
 }
 
-/* .content {
-  width: 100%;
-  border: 1px solid black;
-} */
-
 .aboutText {
-  /* max-width: 75%; */
   font-size: 32px;
   margin-top: 32px;
 }
