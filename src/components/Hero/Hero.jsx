@@ -11,11 +11,11 @@ export const Hero = () => {
         <h2>
           <span className={styles.subTitle}>Front-end Developer</span>
         </h2>
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           I love building user-friendly interfaces, developing web apps that
           make tasks easier and more enjoyable, and bringing exciting ideas to
           life through code!
-        </p>
+        </p> */}
         <div className={styles.btnContainer}>
           <a href="#projects" className={styles.projectsBtn}>
             Projects

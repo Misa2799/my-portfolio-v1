@@ -73,6 +73,10 @@
   margin-right: 16px;
 }
 
+.link:hover {
+  background-color: #eccca7;
+}
+
 @media screen and (max-width: 834px) {
   .container {
     flex-direction: column-reverse;
