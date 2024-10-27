@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Sachiko and Komugi's Weather",
+    "imageSrc": "projects/weather.png",
+    "description": "This project is a web application designed to prevent heatstroke in my grandmother and her dog. It displays the current weather and 3-hour forecasts for Hiroshima City, along with a recommendation on whether it's suitable to go for a walk. Through this project, I learned how to: Use React components, Fetch and process data, Build custom hooks for code reusability.",
+    "skills": ["React", "Typescript", "Tailwind CSS"],
+    "demo": "In Progress",
+    "source": "https://github.com/Misa2799/weather-app-for-my-family"
+  },
+  {
+    "title": "Get Hydrated",
+    "imageSrc": "projects/cat.png",
+    "description": "This project is a web application that displays and provides information on water refill stations in Vancouver. Users can create accounts to bookmark their favorite stations for quick access. I'm developing it to learn how to: Authenticate users with Clerk, Store user data with a database, Retrieve and display data from external APIs using React.",
+    "skills": ["React", "Typescript", "Express", "Node", "Bootstrap"],
+    "demo": "In Progress",
+    "source": "https://github.com/Misa2799/drinking-fountain-map-react"
+  }
+]

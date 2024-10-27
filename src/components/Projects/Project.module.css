@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin: 160px 8% 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.marker_secondary {
+  background: linear-gradient(transparent 70%, var(--color-secondary));
+  border-radius: 2px;
+}
+
+.projects {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
