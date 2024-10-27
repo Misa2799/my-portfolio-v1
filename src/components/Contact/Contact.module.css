@@ -1,1 +1,45 @@
 @import "../../vars.css";
+
+.container {
+  margin: 160px 8% 0;
+  padding-bottom: 48px;
+}
+
+.text h2 {
+  color: var(--color-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.marker_secondary {
+  background: linear-gradient(transparent 70%, var(--color-secondary));
+  border-radius: 2px;
+}
+
+.text p {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 32px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 24px;
+}
+
+.link {
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.link img {
+  width: 40px;
+  height: auto;
+}
