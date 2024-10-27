@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 import skills from "../../data/skills.json";
 
-export default function About() {
+export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>
@@ -33,4 +33,4 @@ export default function About() {
       </div>
     </section>
   );
-}
+};

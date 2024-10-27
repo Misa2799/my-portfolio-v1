@@ -2,7 +2,7 @@ import projects from "../../data/projects.json";
 import styles from "./Project.module.css";
 import { ProjectCard } from "./ProjectCard";
 
-export default function Project() {
+export const Project = () => {
   return (
     <section className={styles.container}>
       <h2 id="projects" className={styles.title}>
@@ -16,4 +16,4 @@ export default function Project() {
       </ul>
     </section>
   );
-}
+};
