@@ -1,7 +1,7 @@
 [
   {
     "title": "Sachiko and Komugi's Weather",
-    "imageSrc": "projects/weather.png",
+    "imageSrc": "projects/weather.img.png",
     "description": "This project is a web application designed to prevent heatstroke in my grandmother and her dog. It displays the current weather and 3-hour forecasts for Hiroshima City, along with a recommendation on whether it's suitable to go for a walk. Through this project, I learned how to: Use React components, Fetch and process data, Build custom hooks for code reusability.",
     "skills": ["React", "Typescript", "Tailwind CSS"],
     "demo": "https://komugi-weather.netlify.app/",
